@@ -4,4 +4,5 @@
   :license {:name "MIT License"
             :url "http://www.opensource.org/licenses/mit-license.php"}
   :dependencies [[org.clojure/clojure "1.5.1"] [org.apache.commons/commons-daemon "1.0.9"]]
+  :scm { :name "GitHub" :url "https://github.com/binaryalchemist/clj-daemon" }
   :aot :all)

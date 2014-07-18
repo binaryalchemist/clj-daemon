@@ -3,6 +3,10 @@
 A simple daemonization library for clojure daemons. It was inpsired by Ryan Nuefeld's recipe described here:  http://www.rkn.io/2014/02/06/clojure-cookbook-daemons/ 
 
 ## Usage
+Add dependency coordinates in your project.clj.
+[![Clojars Project](http://clojars.org/org.clojars.binaryalchemist/clj-daemon/latest-version.svg)](http://clojars.org/org.clojars.binaryalchemist/clj-daemon)
+
+The following is an example of defining start, stop, and init service handlers.
 
 ```Clojure
 (ns clj-daemon.example
