@@ -8,11 +8,6 @@
  (defn start [] (future (on-start)))
  (defn stop [] (on-stop))
  (defn destroy [] (if-not (nil? on-destroy) on-destroy )))
- 
- ;; Enable command-line invocation
- (fn [& args]
-     (init args)
-     (start))
 (defn -init [this ^DaemonContext context] (init (.getArguments context)))
 (defn -start [this] (future (start)))
 (defn -stop [this] (stop))
