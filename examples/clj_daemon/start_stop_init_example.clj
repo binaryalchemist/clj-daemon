@@ -1,4 +1,4 @@
-(ns clj-daemon.example
+(ns clj-daemon.start-stop-init-example
   (:require [clj-daemon.core :refer :all]))
 
 (def state (atom {}))

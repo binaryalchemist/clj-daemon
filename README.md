@@ -9,7 +9,7 @@ Add dependency coordinates in your project.clj.
 The following is an example of defining start, stop, and init service handlers.
 
 ```Clojure
-(ns clj-daemon.example
+(ns clj-daemon.start-stop-init
   (:require [clj-daemon.core :refer :all]))
 
 (def state (atom {}))
